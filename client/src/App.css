@@ -1,0 +1,59 @@
+body{
+    background-color: #282928;
+}
+
+p{
+    text-align: center;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bold;
+    color:#BB87FD;
+}
+
+form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ 
+}
+
+#find{
+    width: 60%;
+    font-size: large;
+    
+}
+
+input{
+    font-family: system-ui;
+    border: 4px solid #BB87FD;
+    border-radius: 4px;
+    
+}
+
+
+button{
+    width:5%;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #BB87FD;
+    border: 1px solid #BB87FD;
+    border-radius: 2px;
+}
+
+.grid{
+    display: grid;
+    gap: 1rem;
+    margin: 3rem 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+
+img{
+    height: 20vw;
+    width: 30vw;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
